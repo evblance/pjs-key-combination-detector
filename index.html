@@ -5,9 +5,30 @@
 <head>
   <meta charset="utf-8" />
   <title>PlainJS Key Combination Detector</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper {
+      background: none;
+      height: 100vh;
+      transition: background 0.15s ease;
+      width: 100%;
+    }
+
+    .wrapper--rewarded {
+      background:
+        center/cover
+        no-repeat
+        url(https://images.pexels.com/photos/1564506/pexels-photo-1564506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+  </style>
 </head>
 
 <body>
+  <div id="reward" class="wrapper"></div>
   <script src="./detector.js"></script>
 </body>
 
