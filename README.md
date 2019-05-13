@@ -2,7 +2,7 @@
 My take on Exercise 12 of Wes Bos' JavaScript30 [series](https://javascript30.com/), whose goal is to build deeper understanding of JavaScript by refraining from use of opinionated programming paradigms or frameworks in place of a simple focus on core concepts using plain JS.
 
 ## About
-This shows the user a 'reward' when one of the following classic key combinations have been executed:
+This app shows the user a 'reward' when one of the following classic key combinations have been executed:
 
 - W + S + W + S + A + D + A + D
 - W + S + W + S + A + D + D
